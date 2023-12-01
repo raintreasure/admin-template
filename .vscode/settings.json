@@ -1,0 +1,34 @@
+{
+	"cSpell.words": ["antd"],
+	// Enable the ESlint flat config support
+	"eslint.experimental.useFlatConfig": true,
+	// Disable the default formatter, use eslint instead
+	"prettier.enable": false,
+	"editor.formatOnSave": false,
+	// Auto fix
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "explicit",
+		"source.organizeImports": "never"
+	},
+	// Enable eslint for all supported languages
+	"eslint.validate": [
+		"javascript",
+		"javascriptreact",
+		"typescript",
+		"typescriptreact",
+		"vue",
+		"html",
+		"markdown",
+		"json",
+		"jsonc",
+		"yaml"
+	],
+	"i18n-ally.localesPaths": "src/locales",
+	// https://github.com/lokalise/i18n-ally/wiki/Path-Matcher
+	"i18n-ally.namespace": true,
+	"i18n-ally.pathMatcher": "{locale}/{namespaces}/index.json",
+	"i18n-ally.sourceLanguage": "zh-CN",
+	"i18n-ally.displayLanguage": "zh-CN",
+	"i18n-ally.enabledFrameworks": ["react-i18next"],
+	"i18n-ally.keystyle": "nested"
+}

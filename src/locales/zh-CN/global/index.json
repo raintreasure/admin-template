@@ -1,0 +1,26 @@
+{
+	"menus": {
+		"about": "关于",
+		"nestMenus": "嵌套菜单",
+		"menu1": "菜单 1",
+		"menu1-1": "菜单 1-1",
+		"menu1-2": "菜单 1-2",
+		"menu2": "菜单 2",
+		"iframe": "外部页面"
+	},
+	"common": {
+		"username": "用户名",
+		"password": "密码",
+		"login": "登录",
+		"back": "返回",
+		"backHome": "返回首页",
+		"warning": "警告",
+		"delete": "删除",
+		"upload": "上传",
+		"404SubTitle": "抱歉，您访问的页面不存在。"
+	},
+	"projectSettings": {
+		"title": "项目设置",
+		"theme": "主题"
+	}
+}
